@@ -14,7 +14,33 @@ The Mine Worker Tracking and Attendance System is a web-based application design
 - **Trajectory Visualization**: Web-GIS, Cesium
 
 ## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Mine-Worker-Tracking-and-Attendance-System.git
+2. Navigate to the project directory:
+   ```bash
+   cd Mine-Worker-Tracking-and-Attendance-System 
+3. Install the necessary dependencies for the backend:
+   ```bash
+   cd server
+   npm install
+4. Install the necessary dependencies for the frontend:
+   ```bash
+   cd src
+   npm install
+
+## Usage
+1. Start the backend server:
+   ```bash
+   cd server
+   npm run serve
+2. Start the frontend server:
+   ```bash
+   cd src
+   npm start
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
