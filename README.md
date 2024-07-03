@@ -11,7 +11,7 @@ The Mine Worker Tracking and Attendance System is a web-based application design
 - **Frontend**: HTML, CSS, JavaScript, Lin-CMS-Vue components library
 - **Backend**: Node.js
 - **Database**: PostgreSQL
-- **Trajectory Visualization**: Web-GIS, Cesium
+- **Trajectory Visualization**: Web-GIS Cesium.js
 
 ## Installation
 1. Clone the repository:
@@ -20,13 +20,8 @@ The Mine Worker Tracking and Attendance System is a web-based application design
 2. Navigate to the project directory:
    ```bash
    cd Mine-Worker-Tracking-and-Attendance-System 
-3. Install the necessary dependencies for the backend:
+3. Install the necessary dependencies for the frontend:
    ```bash
-   cd server
-   npm install
-4. Install the necessary dependencies for the frontend:
-   ```bash
-   cd src
    npm install
 
 ## Usage
