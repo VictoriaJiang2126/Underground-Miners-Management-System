@@ -16,7 +16,7 @@ The Mine Worker Tracking and Attendance System is a web-based application design
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Mine-Worker-Tracking-and-Attendance-System.git
+   git clone https://github.com/VictoriaJiang2126/Mine-Worker-Tracking-and-Attendance-System.git
 2. Navigate to the project directory:
    ```bash
    cd Mine-Worker-Tracking-and-Attendance-System 
