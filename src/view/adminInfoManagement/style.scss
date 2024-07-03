@@ -1,0 +1,152 @@
+.adminInfoManagement{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	.el-card{
+		box-shadow: 0 1px 1px rgba(0,0,0,.15) !important;
+		.el-card__body{
+			flex:1;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			.queryList{
+				flex:1;
+				display: flex;
+				flex-wrap: wrap;
+				.queryItem + .queryItem{
+					// margin-left: 20px;
+				}
+				.queryItem{
+					display: flex;
+					align-items: center;
+					margin-right: 10px;
+					& > p{
+
+					}
+					& > .el-input{
+						flex:1;
+					}
+				}
+			}
+			.btn{
+				align-self: flex-end;
+			}
+		}
+	}
+
+	.wrapper_box{
+		margin-top: 10px;
+		flex:1;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		.el-card__body{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-bottom: 10px;
+			.el-table{
+				flex:1;
+				overflow: hidden;
+			}
+			.el-pagination{
+				margin-top: 10px;
+			}
+	    .el-table--striped .el-table__body tr{
+	      background: transparent;
+	    }
+		}
+	}
+
+  .personDialog{
+    .el-form-item__label{
+      width: 110px;
+      text-align: right;
+    }
+  }
+
+
+
+	// 新增人员弹窗样式
+	// .personDialog{
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	align-items: center;
+	// 	overflow: hidden;
+	// 	.el-dialog{
+	// 		width: 45%;
+	// 		// height: 60%;
+	// 		margin: 0 !important;
+	// 		display: flex;
+	// 		flex-direction: column;
+	// 		overflow: hidden;
+
+	// 	}
+	// 	.el-dialog__header{
+	// 		background: #003e7b;
+	// 		border-bottom: 1px solid #f4f4f4;
+	// 		padding: 5px 20px;
+	// 		// margin-bottom: 10px;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: space-between;
+	// 		.titleTxt{
+	// 			font-size: 18px;
+	// 			font-weight: 600;
+	// 			color: #fff;
+	// 		}
+	// 		.el-dialog__headerbtn{
+	// 			position: initial;
+	// 			padding: 10px;
+	// 			.el-dialog__close{
+	// 				color:#fff;
+	// 			}
+	// 		}
+	// 	}
+	// 	.el-dialog__body{
+	// 		flex:1;
+	// 		overflow: auto;
+	// 		background: #f4f4f4;
+	// 		padding-top: 0;
+	// 		padding-bottom: 0;
+	// 		.personDialogCtn{
+	// 			padding: 10px 0;
+	// 			height: 100%;
+	// 			.personDialogForm{
+	// 				// padding-right: 10px;
+	// 				background: #fff;
+	// 				padding: 0 20px 20px;
+	// 				display: flex;
+	// 				flex-direction: column;
+	// 				.el-form-item{
+	// 					flex: 1;
+	// 					margin-bottom: 0;
+	// 					margin: 10px 0;
+	// 					display: flex;
+	// 					.el-form-item__label{
+	// 						width: 130px;
+	// 						text-align: right;
+	// 						font-weight: 600;
+	// 					}
+	// 					.el-form-item__content{
+	// 						flex:1;
+	// 						display: flex;
+	// 						align-items: center;
+	// 						.el-select, .el-date-editor{
+	// 							width: 100%;
+	// 						}
+	// 						.el-input{
+	// 							flex:1;
+	// 						}
+	// 						& > span{
+	// 							margin-left: 20px;
+	// 						}
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+}

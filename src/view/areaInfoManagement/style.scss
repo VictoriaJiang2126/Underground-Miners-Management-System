@@ -1,0 +1,69 @@
+.areaInfoManagement{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	.el-card{
+		box-shadow: 0 1px 1px rgba(0,0,0,.15) !important;
+		.el-card__body{
+			flex:1;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			.queryList{
+				flex:1;
+				display: flex;
+				flex-wrap: wrap;
+				.queryItem + .queryItem{
+					// margin-left: 20px;
+				}
+				.queryItem{
+					display: flex;
+					align-items: center;
+					margin-right: 10px;
+					& > p{
+
+					}
+					& > .el-input{
+						flex:1;
+					}
+				}
+			}
+			.btn{
+				align-self: flex-end;
+			}
+		}
+	}
+
+	.wrapper_box{
+		margin-top: 10px;
+		flex:1;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		.el-card__body{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-bottom: 10px;
+			.el-table{
+				flex:1;
+				overflow: hidden;
+			}
+			.el-pagination{
+				margin-top: 10px;
+			}
+	    .el-table--striped .el-table__body tr{
+	      background: transparent;
+	    }
+		}
+	}
+
+	.areaDialog{
+	  .el-form-item__label{
+	    width: 100px;
+	    text-align: right;
+	  }
+	}
+}
