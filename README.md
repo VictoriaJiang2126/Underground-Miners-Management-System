@@ -1,5 +1,5 @@
-# Miners-Tracking-and-Attendance-System
-The Mine Worker Tracking and Attendance System is a web-based application designed to enhance the management and safety of mine workers. This system provides real-time location tracking, trajectory path queries, alarm messaging, authority management, and attendance management.
+# Underground-Miners-Management-System 
+The Underground Miners Management System is a web-based application designed to enhance the management and safety of mine workers. This system provides real-time location tracking, trajectory path queries, alarm messaging, authority management, and attendance management.
 
 ## Features
 1. **Real-time Location Tracking**: Display the location information of the current personnel.
