@@ -11,7 +11,7 @@ The Underground Miners Management System is a web-based application designed to 
 - **Frontend**: HTML, CSS, JavaScript, Lin-CMS-Vue components library
 - **Backend**: Node.js
 - **Database**: PostgreSQL
-- **Trajectory Visualization**: Web-GIS, Cesium
+- **Trajectory Visualization**: WebGIS-Cesium
 
 ## Installation
 1. Clone the repository:
